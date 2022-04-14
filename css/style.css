@@ -1,0 +1,198 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&family=Ubuntu&display=swap');
+
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+/* Title */
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h4,
+h6 {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 900;
+}
+
+#title {
+    height: 90vh;
+    color: white;
+    background-color: #ff4c68;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+h1 {
+    text-align: left;
+    font-size: 3rem;
+    line-height: 1.5em;
+    margin-bottom: 10%;
+}
+
+/* NAVIGATION BAR */
+
+.navbar {
+    padding: 0 0 4.5rem 0;
+    text-align: left;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 1.5rem;
+}
+
+.nav-link {
+    font-size: 1.3rem;
+}
+
+.download-button {
+    margin: 5% 3% 0 0;
+}
+
+/* Title Image */
+
+.title-image {
+    position: relative;
+    width: 60%;
+    transform: rotate(25deg);
+    left: 12%;
+}
+
+/* FEATURES SECTION */
+
+#features {
+    background-color: white;
+    position: relative;
+    padding: 7% 15%;
+}
+
+#features i {
+    color: #ef8172;
+}
+
+#features i:hover {
+    color: #ff4c88;
+}
+
+#features h3 {
+    margin: 1.5rem 0;
+    font-size: 1.5rem;
+}
+
+#features p {
+    color: #8f8f8f;
+    margin: auto;
+    width: 70%;
+}
+
+.features-box {
+    padding: 2rem 0;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+    background-color: #ef8172;
+    color: white;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+}
+
+#press {
+    background-color: #ef8172;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 30px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-container {
+    margin: 3% 0;
+}
+
+.pricing-container h3 {
+    font-weight: 500;
+}
+
+/* Call to Action Section */
+
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+}
+
+#cta h3 {
+    padding-bottom: 7%;
+    font-size: 3rem;
+}
+
+.btn {
+    margin: 0 2%;
+}
+
+/* Footer Section */
+
+#footer {
+    padding: 5%;
+}
+
+#footer i {
+    margin: 10px;
+}
+
+#footer i:hover {
+    cursor: pointer;
+    color: #ff4c68;
+}
+
+#footer p {
+    color: #8f8f8f;
+    margin: 1%;
+}
+
+@media (max-width:1000px) {
+    #title {
+        height: auto;
+    }
+
+    #title .row h1 {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        padding: 5% 0;
+        margin-top: 10%;
+    }
+}
